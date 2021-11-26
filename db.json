@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notbook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20+",
+      "price": 4500
+    },
+    {
+      "name": "notbook",
+      "price": "2200,99",
+      "id": 4
+    },
+    {
+      "name": "BICICLETA ",
+      "price": "1500.90",
+      "id": 5
+    },
+    {
+      "name": "calculadora",
+      "price": "10.87",
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 7
+    },
+    {
+      "name": "Notbook",
+      "price": "2200,99",
+      "id": 8
+    },
+    {
+      "name": "Caneta Compact",
+      "price": "0.98",
+      "id": 9
+    },
+    {
+      "name": "Pacotinha",
+      "price": "20000000000000",
+      "id": 10
+    },
+    {
+      "name": "notbook",
+      "price": "2200,99",
+      "id": 11
+    },
+    {
+      "name": "Caderno",
+      "price": "15.80",
+      "id": 12
+    }
+  ]
+}
