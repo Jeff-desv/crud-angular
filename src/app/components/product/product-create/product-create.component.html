@@ -1,0 +1,26 @@
+<!--Formulário-->
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form action="">
+        <!--Nome-->
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+            [(ngModel)]="product.name" name="name"> <!--Bidding para inseri o produto no Back_end-->
+        </mat-form-field>
+        <!--Nome-->
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" 
+            [(ngModel)]="product.price" name="price"> <!--Bidding para inseri o produto no Back_end-->
+        </mat-form-field>
+    </form>
+
+
+    <button mat-raised-button (click)="createProduct()" color="primary"> 
+        Salvar
+    </button>
+
+    <button mat-raised-button (click)="cancel()"> 
+        Cancelar
+    </button>
+
+</mat-card>
